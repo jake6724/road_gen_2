@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://br7b6ulbpfqqx"]
+
+[ext_resource type="PackedScene" uid="uid://ca41yh372ngd3" path="res://scenes/BaseLayerGenerator.tscn" id="1_elqb8"]
+[ext_resource type="PackedScene" uid="uid://b4mpvuvkkkrwj" path="res://scenes/DebugCamera.tscn" id="2_rvslj"]
+
+[node name="Main" type="Node2D"]
+
+[node name="BaseLayerGenerator" parent="." instance=ExtResource("1_elqb8")]
+
+[node name="DebugCamera" parent="BaseLayerGenerator" instance=ExtResource("2_rvslj")]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt1jntbrsh84i"]
+
+[ext_resource type="Texture2D" uid="uid://0ghlxf6bymbt" path="res://assets/grid_marker.png" id="1_wrdhn"]
+
+[node name="GridMarker" type="Sprite2D"]
+texture = ExtResource("1_wrdhn")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca41yh372ngd3"]
+
+[ext_resource type="Script" uid="uid://dh80hjrojewu0" path="res://scripts/generate_base_layer.gd" id="1_fjder"]
+
+[node name="BaseLayerGenerator" type="Node2D"]
+script = ExtResource("1_fjder")

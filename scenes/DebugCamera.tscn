@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4mpvuvkkkrwj"]
+
+[ext_resource type="Script" uid="uid://q5cmctrmng42" path="res://scripts/debug_camera.gd" id="1_jcica"]
+
+[node name="DebugCamera" type="Camera2D"]
+script = ExtResource("1_jcica")
